@@ -1,0 +1,29 @@
+html{
+background-color:#EAF4FF;
+background: url('./backgoirn.webp') ;
+background-size: cover;
+background-repeat: no-repeat;
+text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+.image {
+    display:flex;
+    justify-content: right;
+
+}
+.image2{
+    /* display:flex; */
+    justify-content: left;
+    border-radius: 10px;     
+    
+}
+img {
+    border-radius: 10%;
+    height: 250px;
+    object-fit:contain;
+}
+p{
+    text-align: justify;
+    font-size: x-large;
+    flex:1;
+}
